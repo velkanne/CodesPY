@@ -1,0 +1,24 @@
+
+Proyecto 5: Plataforma de E-commerce (Clases Base en Consola)
+
+Descripción:
+Este script no es una aplicación web completa, sino el "esqueleto" o la arquitectura de un sistema de e-commerce, definido mediante clases de Python.
+Define las estructuras de datos y la lógica de negocio para conceptos clave como `Producto`, `CarritoDeCompras` y `Pedido`.
+
+El objetivo es demostrar cómo se puede organizar un sistema complejo de forma lógica y orientada a objetos antes de preocuparse por la interfaz de usuario, la base de datos o la API.
+
+Librerías necesarias:
+- No se requieren librerías externas. Solo las que vienen con Python.
+
+Instrucciones de ejecución:
+1. Abre una terminal en esta carpeta ('5_ecommerce_clases').
+2. Ejecuta el script de Python:
+   python ejemplo.py
+3. El script ejecutará automáticamente una simulación:
+   - Creará varios productos.
+   - Creará un carrito de compras.
+   - Añadirá productos al carrito.
+   - Mostrará el contenido y el total del carrito.
+   - Creará un pedido a partir del carrito.
+   - Mostrará los detalles del pedido final.
+4. Lee el código fuente (`ejemplo.py`) para entender cómo interactúan las diferentes clases entre sí.

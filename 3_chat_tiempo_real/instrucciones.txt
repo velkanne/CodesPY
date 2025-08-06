@@ -1,0 +1,23 @@
+
+Proyecto 3: Aplicación de Chat en Tiempo Real
+
+Descripción:
+Este proyecto implementa un servidor de chat web muy básico utilizando Flask y Flask-SocketIO.
+Permite que múltiples usuarios se conecten a la misma página web y se envíen mensajes que aparecen instantáneamente en las pantallas de todos los demás, sin necesidad de recargar la página.
+
+El archivo `ejemplo.py` contiene tanto el código del servidor (backend en Python) como el de la página web (frontend en HTML/JavaScript) en una sola pieza para simplificar la demostración.
+
+Librerías necesarias:
+- Flask: Un micro-framework para crear aplicaciones web en Python.
+- Flask-SocketIO: Una extensión para Flask que facilita la comunicación en tiempo real entre el servidor y los clientes (navegadores) usando WebSockets.
+- eventlet: Uno de los servidores de producción que puede manejar las conexiones concurrentes necesarias para un chat.
+
+Instrucciones de ejecución:
+1. Abre una terminal en esta carpeta ('3_chat_tiempo_real').
+2. Instala las librerías necesarias ejecutando:
+   pip install Flask Flask-SocketIO eventlet
+3. Inicia el servidor de chat:
+   python ejemplo.py
+4. Verás un mensaje indicando que el servidor está corriendo en http://127.0.0.1:5000.
+5. Abre DOS o más pestañas o ventanas de tu navegador y ve a esa dirección en cada una.
+6. Escribe un mensaje en el campo de texto de una de las ventanas y presiona "Enviar". El mensaje aparecerá inmediatamente en todas las demás ventanas.

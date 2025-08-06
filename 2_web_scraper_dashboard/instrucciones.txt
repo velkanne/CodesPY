@@ -1,0 +1,21 @@
+
+Proyecto 2: Web Scraper y Dashboard de Visualización
+
+Descripción:
+Este script realiza dos tareas principales:
+1.  **Web Scraping:** Extrae información de una página web. En este caso, obtiene todos los titulares de la portada de Wikipedia en español.
+2.  **Visualización:** Procesa los datos extraídos y crea una visualización simple. Aquí, genera un gráfico de barras mostrando la longitud de cada titular y lo guarda como un archivo de imagen (`grafico_titulares.png`).
+
+Librerías necesarias:
+- requests: Para descargar el contenido HTML de la página web.
+- beautifulsoup4: Para analizar el HTML y extraer la información que necesitamos de forma sencilla.
+- matplotlib: Para crear el gráfico de barras.
+- pandas: (Opcional, pero muy recomendado para manejar datos tabulares) Para organizar y manipular los datos antes de graficarlos.
+
+Instrucciones de ejecución:
+1. Abre una terminal en esta carpeta ('2_web_scraper_dashboard').
+2. Instala las librerías necesarias ejecutando:
+   pip install requests beautifulsoup4 matplotlib pandas
+3. Ejecuta el script de Python:
+   python ejemplo.py
+4. Después de unos segundos, verás un mensaje de que el gráfico se ha guardado. Revisa la carpeta y encontrarás un nuevo archivo de imagen llamado 'grafico_titulares.png'.

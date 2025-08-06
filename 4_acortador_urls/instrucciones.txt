@@ -1,0 +1,23 @@
+
+Proyecto 4: Acortador de URLs (Simulación en Consola)
+
+Descripción:
+Este script simula el funcionamiento de un servicio para acortar URLs como Bitly o TinyURL, pero directamente en la consola.
+El programa permite dos acciones:
+1.  **Acortar:** Ingresas una URL larga y el programa genera un código corto único.
+2.  **Expandir:** Ingresas un código corto y el programa te devuelve la URL original.
+
+Para este ejemplo, los datos se almacenan en un diccionario de Python mientras el programa se ejecuta. En una aplicación real, se utilizaría una base de datos (como SQLite, PostgreSQL, o una base de datos NoSQL como Redis) para que los datos persistan.
+
+Librerías necesarias:
+- No se requieren librerías externas para este ejemplo básico. Solo las que vienen con Python.
+
+Instrucciones de ejecución:
+1. Abre una terminal en esta carpeta ('4_acortador_urls').
+2. Ejecuta el script de Python:
+   python ejemplo.py
+3. El programa te presentará un menú interactivo en la consola.
+4. Elige una opción (1 para acortar, 2 para expandir, 3 para salir).
+5. Sigue las instrucciones que aparecen en pantalla.
+   - Prueba acortando una URL como: https://www.python.org/doc/
+   - Luego, usa la opción de expandir con el código que te generó.

@@ -1,0 +1,20 @@
+
+Proyecto 1: API para un Modelo de Machine Learning
+
+Descripción:
+Este proyecto crea un servidor web (API) que carga un modelo de Machine Learning (simulado en este ejemplo).
+Cualquier persona puede enviar datos a esta API (por ejemplo, las características de una casa) y la API devolverá una predicción (por ejemplo, el precio estimado de la casa).
+
+Librerías necesarias:
+- fastapi: Para crear la API web de forma rápida y moderna.
+- uvicorn: Para ejecutar el servidor de la API.
+- scikit-learn: Aunque el modelo es simulado, esta librería es fundamental en el mundo real para crear los modelos.
+
+Instrucciones de ejecución:
+1. Abre una terminal en esta carpeta ('1_api_modelo').
+2. Instala las librerías necesarias ejecutando:
+   pip install fastapi uvicorn scikit-learn
+3. Inicia el servidor de la API con el siguiente comando:
+   uvicorn ejemplo:app --reload
+4. Abre tu navegador y ve a http://127.0.0.1:8000/docs. Verás la documentación interactiva de la API.
+5. Puedes probar la API desde esa página, enviando datos de ejemplo para obtener una predicción.
